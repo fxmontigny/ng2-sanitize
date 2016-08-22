@@ -1,0 +1,41 @@
+{
+  "name": "ng2-sanitize",
+  "version": "0.0.1",
+  "description": "Sanitize html with typescript for angular 2.",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "postinstall": "typings install",
+    "typings": "typings"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxmontigny/ng2-sanitize.git"
+  },
+  "keywords": [
+    "ng2",
+    "angular2",
+    "angular cli",
+    "sanitize",
+    "typescript"
+  ],
+  "typings": "index.d.ts",
+  "author": "François-Xavier Montigny <fxaviermontigny@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fxmontigny/ng2-sanitize/issues"
+  },
+  "dependencies": {
+    "@angular/core": "2.0.0-rc.4",
+    "@angular/common": "2.0.0-rc.4",
+    "@angular/compiler": "2.0.0-rc.4",
+    "@angular/platform-browser": "2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "typescript": "1.8.10",
+    "typings": "0.8.1",
+    "es6-shim": "0.35.1",
+    "rxjs": "5.0.0-beta.6",
+    "zone.js": "^0.6.12"
+  }
+}
