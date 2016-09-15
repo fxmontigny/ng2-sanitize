@@ -21,39 +21,3 @@ export class MyComponent {
     text:html = "<b>Welcome</b>";
 }
 ```
-
-# Angular Cli
-> angular-cli-build.js
-
-```js
-... 
-module.exports = function(defaults) {
-  return new Angular2App(defaults, {
-    vendorNpmFiles: [
-      ...
-      'ng2-sanitize/**/*.+(js|js.map)'
-    ]
-  });
-};
-...
-```
-
-> angular-cli-build.js
-
-```js
-... 
-const map:any = {
-    'ng2-sanitize': 'vendor/ng2-ace-editor'
-};
-
-/** User packages configuration. */
-const packages:any = {
-    'ng2-sanitize': {
-        format: 'cjs',
-        defaultExtension: 'js',
-        main: 'index.js'
-    }
-};
-...
-```
-

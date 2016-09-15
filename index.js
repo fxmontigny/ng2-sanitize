@@ -21,7 +21,7 @@ var SanitizeHtml = (function () {
         core_1.Pipe({
             name: 'sanitizeHtml'
         }), 
-        __metadata('design:paramtypes', [platform_browser_1.DomSanitizationService])
+        __metadata('design:paramtypes', [platform_browser_1.DomSanitizer])
     ], SanitizeHtml);
     return SanitizeHtml;
 }());
