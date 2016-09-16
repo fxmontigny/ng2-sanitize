@@ -9,7 +9,7 @@ Sanitize html integration with typescript for angular 2.
 # Sample Usage
 
 ```js
-import { SanitizeHtml } from 'ng2-sanitize';
+import { SanitizeHtml, SanitizeResourceUrl, SanitizeScript, SanitizeStyle, SanitizeUrl } from 'ng2-sanitize';
 
 @Component({
   directives: [SanitizeHtml],

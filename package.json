@@ -1,6 +1,6 @@
 {
   "name": "ng2-sanitize",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Sanitize html with typescript for angular 2.",
   "main": "ng2-sanitize.js",
   "typings": "ng2-sanitize.d.ts",
