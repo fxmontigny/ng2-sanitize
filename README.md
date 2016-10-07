@@ -1,4 +1,4 @@
-# ng2-ace
+# ng2-sanitize
 
 [![npm version](https://badge.fury.io/js/ng2-sanitize.svg)](https://www.npmjs.com/package/ng2-sanitize) 
 Sanitize html integration with typescript for angular 2.
@@ -12,7 +12,6 @@ Sanitize html integration with typescript for angular 2.
 import { SanitizeHtml, SanitizeResourceUrl, SanitizeScript, SanitizeStyle, SanitizeUrl } from 'ng2-sanitize';
 
 @Component({
-  directives: [SanitizeHtml],
   template: `
   <div [innerHTML]="html | sanitizeHtml"></div>
   `
