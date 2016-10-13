@@ -20,3 +20,6 @@ export class MyComponent {
     text:html = "<b>Welcome</b>";
 }
 ```
+
+# Used by
+[caravel.design](https://www.caravel.design) 
